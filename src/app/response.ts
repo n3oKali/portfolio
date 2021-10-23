@@ -1,0 +1,26 @@
+export class Response {
+    results:[{
+        picture:{
+            large:string
+        },
+        name:{
+            first:string
+            last:string
+        },
+        email:string
+        dob:{
+            date:string
+        },
+        location:{
+            street:{
+                name:string
+                number:number
+            }
+        },
+        phone:string,
+        login:{
+            password:string
+        }
+    }
+    ]
+}
